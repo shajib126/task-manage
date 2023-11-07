@@ -1,5 +1,7 @@
 # task-manage
 Full stack task manager app to manage user task.
+I attached .env file for give idea about dependency .
+becouse, it's a test project,  
 
 #Instalation
 
