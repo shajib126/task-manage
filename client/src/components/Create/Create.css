@@ -1,0 +1,27 @@
+.createNew{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.createNew input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.createNew button{
+    width: 200px;
+    border: none;
+    padding:1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:1rem auto;
+    font-size: 1rem;
+    background-color: rgba(10, 60, 168, 0.774);
+    color: white;
+    transition: all 0.5s ease;
+}
+.createNew button:hover{
+    transform: scale(1.1);
+    background-color: rgb(10, 124, 10);
+}

@@ -1,0 +1,44 @@
+.profile-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.profile-container img{
+    width: 20%;
+    
+ 
+    height: 250px;
+}
+.profiledetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+}
+.profiledetails > div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+.profiledetails input{
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+}
+.profiledetails button{
+    width: 200px;
+    flex: 2;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.profiledetails button:hover{
+    color: rgb(162, 152, 173);
+    transform: scale(1.1);
+}

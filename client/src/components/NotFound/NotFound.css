@@ -1,0 +1,11 @@
+
+.notfound h1{
+    text-align: center;
+    margin-top: 4rem;
+    
+    font-size: 4vw;
+
+}
+.notfound h1 span{
+    color: rgb(146, 20, 20);
+}

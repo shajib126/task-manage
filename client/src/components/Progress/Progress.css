@@ -1,0 +1,51 @@
+.tasklist{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.progress h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+.progress input{
+    width: 40%;
+    margin-left: 20%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.progress button{
+    border-radius: 5px;
+    padding: 0.8rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+}
+.progress button:hover{
+    color: rgb(221, 199, 199);
+}
+.progressitemlist{
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px gray;
+    padding: 1rem;
+    background: whitesmoke;
+}
+.delandedit span{
+    cursor: pointer;
+    font-size: 2rem;
+}
+.delandedit span:first-child{
+    color: green;
+}
+.delandedit span:last-child{
+    color: red;
+}
+.delandedit{
+  display: flex;
+  justify-content: space-between;
+}

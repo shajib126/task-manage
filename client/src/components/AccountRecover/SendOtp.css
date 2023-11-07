@@ -1,0 +1,16 @@
+.sendOtp{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.sendOtp input{
+    padding: 0.5rem;
+}
+.sendOtp button{
+    border: none;
+    padding: 0.5rem;
+   background: salmon;
+   color: white;
+}

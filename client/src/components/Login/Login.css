@@ -1,0 +1,57 @@
+.login{
+   width: 20%;
+   background-color: white;
+   padding: 1rem;
+   margin:8rem auto;
+   border-radius: 1rem;
+   
+   
+}
+.login h4{
+    text-align: center;
+}
+.input{
+    width: 80%;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    
+}
+.login input{
+    width: 100%;
+    padding: 0.5rem;
+}
+.login button{
+    width:40%;
+    padding: 0.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+   
+}
+ .login a{
+   text-decoration: none;
+   
+    display: flex;
+   margin-left: 70%; 
+   font-size: 0.7rem;
+   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:1200px) {
+    .login{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .login{
+        width: 80%;
+    }
+}

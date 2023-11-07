@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/790.1f2b2b1b.chunk.css","mappings":"AAAA,WAEI,WAAY,CACZ,YAAa,CAFb,SAGJ","sources":["components/AccountRecover/VerifyOtp.css"],"sourcesContent":[".verifyOtp{\r\n    width: 60%;\r\n    margin: auto;\r\n    padding: 1rem;\r\n}"],"names":[],"sourceRoot":""}
